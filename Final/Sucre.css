@@ -1,0 +1,60 @@
+body{
+    background-image: url(Img/Flag_of_Chuquisaca.png);
+    background-size:contain;
+    margin-left:80;
+    margin-right:80;
+}
+H1{
+    text-align: center;
+    font-family: cursive;
+    
+}
+
+p{
+    font-size:20;
+    background-color:white;
+    padding:5;
+    font-family: sans-serif;
+     border-bottom: 10px solid #0FB;
+    border-top:  10px solid #0FB;
+    border-left:  10px solid #0FB;
+    border-right:  10px solid #0FB;
+}
+
+ul{
+    font-size:20;
+    border-bottom: 10px solid #0FB;
+    border-top:  10px solid #0FB;
+    border-left:  10px solid #0FB;
+    border-right:  10px solid #0FB;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: left;
+    background-color: white;
+}
+img{ 
+    margin-left: 80;
+    margin-bottom: 40;
+    
+}
+.column {
+    float: left;
+    width: 50%
+    
+}
+.row::after{
+    content:"";
+    clear:both;
+    display: table;
+}
+#left{
+    float:left;
+}
+a{
+    margin-right:200;
+    font-size:20;
+    background-color:white;
+    padding:5;
+    font-family: sans-serif;
+    
+}
